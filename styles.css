@@ -1,0 +1,57 @@
+#titulo {
+    color: rgb(4, 165, 209);
+    background-color: beige;
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.cartitas div {
+    color: blue;
+    background-color: rgb(230, 230, 39);
+    font-size: 24;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* no sé por que cojones no se ve el borde. ATUALIZACIÓN: ancho y padding*/
+    padding: 10px;
+	width:fit-content;
+    border: 2px solid rgb(4, 165, 209);
+    margin: 3px;
+}
+#nombre_receta {
+    color: rgba(166, 104, 4, 0.951);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    border: none;
+    width: auto;
+}
+.receta {
+    background-color: antiquewhite;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    width: fit-content;
+    border: 2px solid black;
+    margin: 20px;
+    box-shadow: 3px rgb(241, 221, 194);
+}
+.foto {
+    position: relative;
+    left: 25%;
+    background-color: whitesmoke;
+    padding: 20px;
+    width: fit-content;
+    border: 2px solid black;
+    margin: 20px;
+    box-shadow: 3px rgb(241, 164, 64);
+    
+}
+/* No sale la shadown, probablemente porque hace referencia a una caja que no se ha establecido. De todas maneras
+se ha apañado la mayoría de las cosas.
+
+Las fotos se han ajustado left:25% porque no he sido capaz de centrarlas.
+Se ha creado la id de nombre receta porque no conseguía combinarlas bien como clases (.receta 
+.nombre_receta). Tengo que repasar eso.
+
+Vamos a darlo por bueno por el momento para no perder más tiempo del necesario con esta historia.
+*/
